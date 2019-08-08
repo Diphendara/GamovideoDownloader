@@ -12,3 +12,6 @@ This script works in Chrome and Firefox (I haven't tried it in other browsers ye
 
 # **Note**
 This script is obviously very ingrained to the current HTML of the web page, as soon as you change the script it will stop working as it should.
+
+# Timestamp
+- 08/08/2019 :white_check_mark:

@@ -17,7 +17,7 @@ javascript: (function () {
     }
 
     function getTitle() {
-        return $('#file_title').text().trim();
+        return $('#file_title').text().trim().replace(/\s/g, '_');
     }
 
     function download(url) {

@@ -1,5 +1,4 @@
 javascript: (function() {
-    const IP_DIRECTION = "http://151.80.19.156:8777";
     getLink($('#extra_data > script:nth-child(6)').text());
 
     function getLink(rawCode) {

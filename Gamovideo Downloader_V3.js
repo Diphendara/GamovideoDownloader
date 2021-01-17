@@ -10,7 +10,9 @@ javascript: (function() {
       const cleanOne = cleanStrings.replace(firtSection, "").replace(".split('|')))", "");
       const splitArgs = cleanOne.split('|');
 
-      const url = IP_DIRECTION + "/" + splitArgs[14] + "/" + getTitle() + ".mp4";
+      const IP_URL = window.prompt("sometext","Here URL");
+
+      const url = IP_URL + "/" + splitArgs[14] + "/" + getTitle() + ".mp4";
       console.log(url);
       download(url);
     }
